@@ -24,6 +24,6 @@ else:
     print("Ingrese un precio valido")
 
 #Mostrar precios
-print(f"Precio sin el descuento: ", round(total_sin_descuento, 2))
-print(f"Descuento: ", round(precio_descuento, 2))
-print(f"Precio con el descuento: ", round(total_con_descuento, 2))
+print(f"Precio sin el descuento:", round(total_sin_descuento, 2))
+print(f"Descuento:", round(precio_descuento, 2))
+print(f"Precio con el descuento:", round(total_con_descuento, 2))

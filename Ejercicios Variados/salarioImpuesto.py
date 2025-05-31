@@ -7,6 +7,6 @@ salario = float(input("Ingrese su salario: "))
 
 #Verificacion y resultado
 if salario > 15000:
-    print("Se retienen impuestos\nSalario: ", salario)
+    print("Se retienen impuestos\nSalario:", salario)
 else:
-    print("No alcanzado por el impuesto\nSalario: ", salario)
+    print("No alcanzado por el impuesto\nSalario:", salario)
