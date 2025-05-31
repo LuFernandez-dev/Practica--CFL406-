@@ -18,3 +18,4 @@ else:
 
 #Mostrar resultados
 print(f"El monto total a pagar es: {monto_total}\nMetodo de pago es: {metodo_pago}")
+

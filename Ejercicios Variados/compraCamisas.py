@@ -15,13 +15,13 @@ if cantidad_camisa >= 3:
 elif cantidad_camisa < 3 and cantidad_camisa >= 1:
     descuento = 0.1
 else:
-    raise Exception("Ingrese un numero valido")
+    raise Exception("Ingrese un numero valido") #Error generico
 
 if precio_camisa > 0:
     precio_descuento = total_sin_descuento * descuento
     total_con_descuento = total_sin_descuento - precio_descuento
 else:
-    raise Exception("Ingrese un precio valido")
+    raise Exception("Ingrese un precio valido") #Error generico
 
 #Mostrar precios
 print(f"Precio sin el descuento:", round(total_sin_descuento, 2))
