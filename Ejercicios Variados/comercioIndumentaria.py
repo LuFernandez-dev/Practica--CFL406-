@@ -6,13 +6,15 @@
 
 #Ingreso de datos
 monto = float(input("Ingrese el precio a pagar: "))
-metodo_pago = input("Ingrese la forma de pago (efectivo o targeta): ")
+metodo_pago = input("Ingrese la forma de pago (efectivo o targeta): ").lower()
 
+#Verificacion de metodo de pago y calculo del monto total
 if metodo_pago == "efectivo":
     monto_total = monto - (monto * 0.1)
 elif metodo_pago == "targeta":
     monto_total = monto + (monto * 0.15)
 else:
-    print("Ingrese un metodo de pago valido")
+    raise Exception("Ingrese un metodo de pago valido") #Error generico
 
-print("")
+#Mostrar resultados
+print(f"El monto total a pagar es: {monto_total}\nMetodo de pago es: {metodo_pago}")
