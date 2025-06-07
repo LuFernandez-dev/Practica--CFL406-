@@ -18,7 +18,6 @@ for i in eliminados:
 #Resultado
 print(f"Conjunto de usuarios actualizado:\n", grupo)
 
-
 #Otra solucion
 
 #Agregar usuarios

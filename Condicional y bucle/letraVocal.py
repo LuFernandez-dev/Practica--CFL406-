@@ -1,4 +1,5 @@
 #Programa que pida el ingreso de una letra y diga si es vocal o no
+#Incluso si es mayuscula o con acento
 
 #Ingreso de datos
 letra = input("Ingrese una letra: ").lower()

@@ -1,14 +1,10 @@
 #Programa las siguientes instrucciones de forma ordenada sobre la variable animales:
-
 #Añade al diccionario las claves perro, tigre y mono con sus respectivos
 #valores “Bobby”, “Peepe” y “homero”. respectivamente. Muestra en
 #pantalla como queda
-
 #Modificá las claves elefante y delfin con los valores “Trompis”y “Manolo”
 #respectivamente. Muestra en pantalla como queda
-
 #Muestra los items clave y valor con un ciclo for.
-
 #Determinar si : “perro” no pertenece al diccionario, si “mono” no pertenece
 #al diccionario, si “oso” no pertenece al diccionario, “tigre” pertenece al
 #diccionario
